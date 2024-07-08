@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<body style="background-color: #f4ded4;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #32012F;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: antiquewhite;">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: antiquewhite;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home" style="color: antiquewhite;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects" style="color: antiquewhite;">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" style="color: antiquewhite;">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" style="color: antiquewhite;">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container col-xxl-12 px-4 py-5" style="background-color: #f4ded4;">
+
+        <div id="home" class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 profile">
+            <img src="./assets/profile.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="heading col-lg-6">
+            <h1 class="fw-bold lh-1 mb-3" style="font-size: 250%;">Hi, I'm <span style="font-family:Abril Fatface"><br>Pranshu Suman</span></h1>
+            <h2 style="font-family: Montserrat;margin: 50px 0px;">Student @ BITS Pilani <br> Hyderabad Campus <br> pursuing CSE.</h2>
+            <h2 style="font-family: Montserrat;margin-bottom: 50px;">Web Developer<br>Computer Enthusiast  <br>Intermediate Python Dev.</h2>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill" style="background-color: #ffde59; color: black; font-family: Montserrat; width: fit-content; border: 0px;" >Contact Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div id="projects" class="titles">
+    <h1 style="font-family:Abril Fatface ; font-size: 400%; margin-bottom: 40px;">Projects</h1>
+    <hr style="height:5px;color:#32012F;background-color:#32012F; opacity: 100; width: 50%; ">
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" style="margin: auto; width: 69%;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-sm-block" style="padding: 20px;">
+              <h4>Project 1</h4>
+              <p class="d-none d-md-block">Some representative placeholder content for the first slide.</p>
+              <p style="margin-bottom: 5px;"><a class="btn btn-sm btn-warning rounded-pill" href="#" style="background-color: #32012F; color: antiquewhite;">Learn More</a></p>
+            </div>
+            
+            </div>
+          <div class="carousel-item">
+            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-sm-block" style="padding: 20px;">
+                <h4>Project 2</h4>
+                <p class="d-none d-md-block">Some representative placeholder content for the first slide.</p>
+                <p style="margin-bottom: 5px;"><a class="btn btn-sm btn-warning rounded-pill" href="#" style="background-color: #32012F; color: antiquewhite;">Learn More</a></p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-sm-block" style="padding: 20px;">
+                <h4>Project 3</h4>
+                <p class="d-none d-md-block">Some representative placeholder content for the first slide.</p>
+                <p style="margin-bottom: 5px;"><a class="btn btn-sm btn-warning rounded-pill" href="#" style="background-color: #32012F; color: antiquewhite;">Learn More</a></p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    
+
+    <div id="about" class="titles">
+        <h1 style="font-family:Abril Fatface ; font-size: 400%;">About Me</h1>
+        <hr style="height:5px;color:#32012F;background-color:#32012F; opacity: 100; width: 50%; ">
+    </div>
+
+    <p style="font-family:Montserrat; margin-left: 7%; text-align: left; width: 70%; font-size: 150%;">I am a student pursuing CSE degree at BITS Pilani Hyderabad Campus. I have always been fascinated by computers and how to manipulate them to do things I wanted them to. This curiosity has led me down a path of programming, scripting and developing. I have a long way to go but the things I have learnt never fail to amaze me.<br><br>
+
+    I am interested in finance and consulting as well and currently a conditional consultant at WorldQuant. My team and I won the IQC 2024 University Round. I have also participated in several case study competitions.</p>
+    
+    <div id="contact" class="titles">
+        <h1 style="font-family:Abril Fatface ; font-size: 400%;">Contact Me</h1>
+        <hr style="height:5px;color:#32012F;background-color:#32012F; opacity: 100; width: 50%; ">
+        <h2 class="col-sm-6" style="font-family: Montserrat;">Email: pranshusumanstuff@gmail.com</h2>
+        <a class="link-body-emphasis" href="https://github.com/pranshustuff" target="_blank"><img src="./assets/github.png" style="height: 40px;"></a>
+    </div> 
+
+    
+
+    <footer class="py-3" style="background-color: #32012F;">
+        <ul class="nav justify-content-center pb-3">
+          <li class="nav-item"><a href="#home" class="nav-link px-2" style="color: antiquewhite;">Home</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link px-2" style="color: antiquewhite">Projects</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link px-2" style="color: antiquewhite">About Me</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link px-2" style="color: antiquewhite">Contact Me</a></li>
+        </ul>
+      </footer>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top" style="background-color: #32012F;">
+        <p style="color: antiquewhite; margin:auto">© 2024 Pranshu Suman All rights reserved.</p>
+      </div>
+
+    
+</body>
+</html>
