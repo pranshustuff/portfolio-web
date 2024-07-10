@@ -43,6 +43,12 @@ h4 {
     margin-bottom: 35px;
 }
 
+svg {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
 .logos {
     display: flex;
     width: 100%
