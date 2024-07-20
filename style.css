@@ -34,7 +34,7 @@
 
 p{
     font-family: Montserrat;
-    color: antiquewhite;
+    
 }
 
 h4 {
@@ -42,7 +42,7 @@ h4 {
     font-weight: 600;
     font-size: 200%;
     margin-bottom: 35px;
-    color: antiquewhite;
+    background-colour: grey;
 }
 
 svg {
@@ -56,4 +56,9 @@ svg {
     width: 100%
     justify-content: center;
     margin: 30px;
+}
+
+.contact-form{
+    width: 70%;
+    margin: 10px;
 }
